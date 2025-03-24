@@ -1,0 +1,24 @@
+*{
+    color: blueviolet;
+}
+
+#heading1{
+    color: brown;
+}
+
+#heading2{
+    color: darkgoldenrod;
+}
+
+#heading3{
+    background-color: chartreuse;
+}
+#heading4{
+    color: aquamarine;
+}
+.myclass{
+    color: darkgreen;
+}
+.myclass1{
+    color: fuchsia;
+}
