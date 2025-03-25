@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>info..</legend>
+
+        <label for="textfield1">Name:</label><br />
+        <input type="text" name="textfield1" id="textfield1" />
+        <br />
+        <br />
+
+        <label for="password1">Enter password</label><br />
+        <input type="password" name="password1" id="password1" />
+        <br />
+        <br />
+        <label for="datepicher1">Enter date</label>
+        <input type="date" name="datepicher1" id="datepicher1" />
+        <br />
+        <br />
+
+        <div>
+          <label for="genger"
+            ><b>Gender:<br /></b
+          ></label>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">male</label>
+
+          <input type="radio" name="gender" id="female" />
+          <label for="female">female</label>
+
+          <input type="radio" name="gender" id="prefer not to say" />
+          <label for="prefer not to say">prefer not to say</label>
+        </div>
+        <br />
+
+        <div>
+          <label for="language"><b>Language:</b></label>
+          <br />
+          <input type="checkbox" name="language" id="sanskrit" />
+          <label for="language">Sanskrit</label>
+          <br />
+          <input type="checkbox" name="language" id="hindi" />
+          <label for="language">Hindi</label>
+          <br />
+          <input type="checkbox" name="language" id="english" />
+          <label for="language">English</label>
+          <br />
+          <input type="checkbox" name="language" id="Marathi" />
+          <label for="language">Marathi</label>
+          <br />
+          <input type="checkbox" name="language" id="Telgu" />
+          <label for="language">Telgu</label>
+          <br />
+          <br />
+          <label for="fileselect1">upload:</label>
+          <input type="file" name="fileselect" id="fileselect1" />
+          <br />
+          <br />
+          <label for="image1">Download</label>
+          <input
+            type="image"
+            name="image"
+            id="image1"
+            alt="click here"
+            src="image/imagebutton.png"
+            height="40px"
+            width="50px"
+          />
+          <br />
+          <br />
+          <label for="button1">button</label>
+          <input type="submit" name="button1" id="button1" value="Subscribe" />
+
+          <br />
+          <br />
+        </div>
+      </fieldset>
+
+      <!-- Uniqueness: id must be unique; name does not have to be. 
+       Purpose: id is mainly used for styling and scripting; name is used for form data submission.
+       Usage in Forms: name is critical for sending data to the server, while id is not required for form submission but useful for client-side interactions. -->
+    </form>
+  </body>
+</html>

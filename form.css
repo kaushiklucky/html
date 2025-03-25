@@ -1,0 +1,10 @@
+body{
+    background-color: antiquewhite;
+}
+input{
+    color: blueviolet;
+    background-color: #abcdef;
+}
+#email{
+    background-color: rgb(196, 66, 18);
+}
