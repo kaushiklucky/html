@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <h2>Complex Form</h2>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+
+        <label for="phone">Phone</label>
+        <input type="tel" name="" id="phone" />
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" , id="dob" />
+
+        <div style="display: inline;">
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender"/>
+          <label for="male">Male</label>
+
+          <input type="radio" , id="female" name="gender"/>
+          <label for="female">Female</label>
+        </div>
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="India">India</option>
+          <option value="Russia">Russia</option>
+          <option value="indo">Indonesia</option>
+        </select>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend> Address
+            <label for="street">Street</label>
+            <input type="text", id="street">
+
+            <label for="city">City</label>
+            <input type="text", id="city">
+
+            <label for="state">State</label>
+            <input type="text", id="state">
+
+            <label for="zip">Zip Code</label>
+            <input type="number", id="zip" min="5" max="6">
+        </legend>
+      </fieldset>
+      <fieldset>
+        <legend>Other Information</legend>
+        <label for="textarea">Comments</label>
+        <textarea name="" id="textarea" cols="60" rows="5"></textarea>
+        <label for="check">I agree to the terms and of service</label>
+        <input type="checkbox" name="check" id="check">
+      </fieldset>
+      <input type="submit" value="Submit" style="cursor: pointer;">
+    </form>
+  </body>
+</html>
